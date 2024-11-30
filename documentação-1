@@ -1,0 +1,75 @@
+Documentação - Galeria de Arte Online
+Alunos: Artur Severo, Davi Feitosa, Luana Pires, Paulo Cesar
+1. Resumo
+O nosso objetivo com a  “Galeria de Arte Online” é ser uma plataforma virtual para exibição de obras de arte. A proposta foi criar um site com uma interface minimalista e elegante, inspirada em galerias de arte físicas,que proporciona aos usuários uma experiência visual agradável e intuitiva. O site possibilita a exploração das artes, conhecer os artistas e entrar em contato com a galeria. 
+O site é composto por quatro páginas principais:
+Home: Apresentação das obras em destaque.
+Galeria: Exibição de todas as obras de arte organizadas em um grid.
+Artista: Informações sobre os artistas com estilo, obras e imagens.
+Contato: Formulário para contato com a galeria.
+2. Páginas Necessárias e Tags Usadas
+2.1 Home
+Objetivo: Apresentar as principais coleções ou exposições, com objetivo de introduzir visualmente o usuário ao conteúdo do site.
+Estrutura HTML usada:
+<header>: Contém o logo e o menu de navegação.
+<nav>: Menu de navegação para acessar as diferentes páginas do site.
+<section>: Destaque para exposições ou coleções.
+<figure> e <img>: Para exibir imagens das coleções em destaque.
+<figcaption>: Legenda informativas das imagens.
+<footer>: Rodapé com links para redes sociais, acesso a documentação e nome dos integrantes do grupo.
+2.2 Galeria
+Objetivo: Exibir as obras de arte de maneira organizada utilizando o grid, permitindo que o usuário saiba mais sobre determinada obra ao passar o mouse por cima.
+Estrutura HTML usada:
+<header> e <nav>: Cabeçalho com logo e menu de navegação.
+<section>: Seção principal para o grid das obras de arte.
+<article>: Para cada obra de arte, incluindo <figure>, <img>, e <figcaption>.
+<footer>: Rodapé com links para redes sociais, acesso a documentação e nome dos integrantes do grupo.
+2.3 Artista
+Objetivo: Apresentar informações sobre os artistas, incluindo biografia, estilo e obras principais.
+Estrutura HTML usada:
+<header> e <nav>: Cabeçalho com logo e menu de navegação.
+<section>: Descrição dos artistas.
+<article>: Cada artista com uma imagem e sua biografia.
+<footer>: Rodapé com links para redes sociais, acesso a documentação e nome dos integrantes do grupo.
+2.4 Contato
+Objetivo: Criar uma página de contato para que visitantes possam enviar perguntas ou solicitações sobre obras e artistas.
+Estrutura HTML usada:
+<header> e <nav>: Cabeçalho e menu de navegação.
+<form>: Formulário para contato.
+<label>: Rótulos para os campos do formulário.
+<input>: Campos de entrada para nome e e-mail (não pode estar vazio).
+<textarea>: Campo de entrada para a mensagem (não pode estar vazio).
+<button>: Botão para enviar o formulário.
+<footer>: Rodapé com links para redes sociais, acesso a documentação e nome dos integrantes do grupo.
+3. Estilização e Layout (CSS)
+A estilização foi realizada usando o CSS, com foco na simplicidade e elegância do design. O layout foi feito de forma minimalista, com espaçamento adequado e tipografia que mantém as imagens e as informações de forma discreta.
+3.1 Estilização dos elementos
+Cabeçalho e Navegação (<header> e <nav>):
+
+
+Usamos uma paleta de cor neutras preto para o background do header e branco para o hover nos links de navegação
+Usamos display: flex; para alinhar o logo e os itens de navegação horizontalmente.
+
+Imagens e Legendas (<figure>, <img>, <figcaption>):
+
+
+Aplicamos border-radius nas bordas das imagens para um toque mais moderno.
+As legendas (<figcaption>) foram centralizadas e usam uma tipografia cursiva para dar um toque artístico.
+Grid de Galeria (<section>, <article>):
+
+
+Usamos display: grid; para organizar as imagens.
+Aplicamos um gap para garantir um espaçamento equilibrado entre as imagens.
+Escolhemos um número de colunas apropriado para o layout responsivo (3 ou 4 colunas, dependendo da largura da tela).
+Formulário de Contato (<form>, <input>, <textarea>, <button>):
+
+
+Estilizamos os campos de entrada com bordas finas e arredondadas.
+O botão de envio tem um efeito de hover que muda sua cor, destacando a ação de envio.
+Rodapé (<footer>):
+
+
+Utilizamos um fundo escuro com texto claro, centralizado.
+Os links para redes sociais são apresentados em pequenos ícones no canto esquerdo, meio e canto direito da tela.
+4. Conclusão
+A Galeria de Arte Online exibe as obras de arte, artistas e permite a interação dos usuários com o conteúdo de forma simples. Com o uso de HTML e CSS, nós criamos um design de forma que seja ao mesmo tempo funcional e visualmente atraente, com foco em uma experiência de usuário simples e envolvente, inspirado em galerias de artes reais.
