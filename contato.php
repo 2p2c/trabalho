@@ -15,29 +15,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <title> Contato</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header>
-    <div class="logo">Galeria de Arte</div>
-    <nav>
-      <ul>
-
-        <h1>
-          <li><a href="home.php">Home</a></li>
-          <li><a href="galeria.php">Galeria</a>
-        </h1>
-
-        <h2>
-          <li><a href="artista.php">Artistas</a></li>
-          <li><a href="contato.php">Contato</a></li>
-        </h2>
-
-      </ul>
-    </nav>
-  </header>
+<header>
+<div class="header">
+      <div class="nav esquerda">
+          <a href="home.php">Home</a>
+          <a href="galeria.php">Galeria</a>
+      </div>
+      <img src="./imgs/logo2.png" alt="Galeria Online de Arte">
+      <div class="nav direita">
+          <a href="artista.php">Artistas</a>
+          <a href="contato.php">Contato</a>
+      </div>
+</div>
+  </nav>
+</header>
 
   <section id="contato">
-    <h1>Fale Conosco</h1>
+    <h1>Deixe sua mensagem</h1>
     <form action="salvar_dados.php" method="POST">
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" required>
@@ -53,6 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             Mensagem enviada com sucesso!
         </div>
     <?php endif; ?>
+    
   </section>
 
   <div class="mensagens1">
@@ -78,9 +74,9 @@ if ($result->num_rows > 0) {
   echo '<div class="grid-mensagens">';
   while ($row = $result->fetch_assoc()) {
       echo '<div class="mensagens">';
-      echo '<h3>' . $row["nome"] . '</h3>';
-      echo '<p><strong>Email:</strong> ' . $row["email"] . '</p>';
-      echo '<p><strong>Mensagem:</strong> ' . $row["mensagem"] . '</p>';
+      echo '<h3>' . $row["nome"] .'</h3>';
+      echo '<p><strong>Email:</strong> ' . $row["email"] .'</p>';
+      echo '<p><strong>Mensagem:</strong> ' . $row["mensagem"] .'</p>';
       echo '</div>';
   }
   echo '</div>';
@@ -91,13 +87,17 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
 
-  <footer>
+<footer class="footer">
+    <div class="footer1">
     <div class="alunos"> Alunos: Paulo Cesar, Luana Pires, Artur Severo, Davi Feitosa</div> 
     <div class="copia">
       <a href="https://docs.google.com/document/d/1btBh8AaKVEidDtbicwgIeQRCrq20WUsIarO02PSTzH8/edit?tab=t.0#heading=h.vuupm6jpllsmf" target="_blank">&copy; 2024 Galeria de Arte Online</a>
-    </div>
+  </div>
+      <div class="link">
       <a href="https://www.instagram.com/galeria_art_on/profilecard/?igsh=MTA1OWQ1ZXR6bzEzcw==" target="_blank">
       <img src="./imgs/instagram.png" alt="Instagram" class="links1">
+      </div>
+      </div>
   </footer>
 </body>
 </html>

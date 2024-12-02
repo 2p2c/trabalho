@@ -6,28 +6,23 @@
   <title>Galeria</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<header>
+<div class="header">
+      <div class="nav esquerda">
+          <a href="home.php">Home</a>
+          <a href="galeria.php">Galeria</a>
+      </div>
+      <img src="./imgs/logo2.png" alt="Galeria Online de Arte">
+      <div class="nav direita">
+          <a href="artista.php">Artistas</a>
+          <a href="contato.php">Contato</a>
+      </div>
+</div>
+  </nav>
+</header>
 
-  <header>
-    <div class="logo">Galeria de Arte</div>
-    <nav>
-      <ul>
-
-        <h1>
-          <li><a href="home.php">Home</a></li>
-          <li><a href="galeria.php">Galeria</a>
-        </h1>
-
-        <h2>
-          <li><a href="artista.php">Artistas</a></li>
-          <li><a href="contato.php">Contato</a></li>
-        </h2>
-
-      </ul>
-    </nav>
-  </header>
-  <section id="Todas">
+  <section >
 
   <div class="titulo2">
       <h1>Todas as exposições</h1>
@@ -35,20 +30,12 @@
 
     <div class="grid2">
 
-    <figure>
-      <div class="images">
-      <a href="https://pt.wikipedia.org/wiki/Escola_de_Atenas#:~:text=A%20Escola%20de%20Atenas%20(Scuola,Segnatura%20sob%20encomenda%20do%20Vaticano." target=blank>
-        <img src="./imgs/Escola de atenas.jpg" alt="Escola de atenas"> </a>
-          <figcaption>Nome:A escola de Atenas
-            <br>Artista: Rafael Sanzio
-            <br>Obs: A obra se encontra no Palácio Apostólico, Vaticano.
-          </figcaption>
-        </div>
-      </figure>
+
 
      
       <figure>
       <div class="images">
+      <div class="maior">
       <a href="https://pt.wikipedia.org/wiki/O_Grito" target=blank>
         <img src="./imgs/O grito.jpg" alt="O Grito" > </a>
       <figcaption>
@@ -56,6 +43,7 @@
         <br>Artista: Edvard Munch
         <br>Obs: A pintura está exposta na Galeria Nacional de Oslo, na Noruega
       </figcaption>
+      </div>
       </div>
       </figure>
 
@@ -71,6 +59,8 @@
         </div>
       </figure>
 
+    
+
       <figure>
         <div class="images">
         <a href="https://pt.wikipedia.org/wiki/A_Noite_Estrelada" target=blank>
@@ -79,6 +69,19 @@
             Nome: Noite Estrelada
             <br>Artista: Vincent van Gogh
             <br>Obs: A tela faz parte da coleção permanente do Museu de Arte Moderna de Nova Iorque</figcaption>
+        </div>
+      </figure>
+
+      <figure>
+      <div class="images">
+      <div class="maior">
+      <a href="https://pt.wikipedia.org/wiki/Escola_de_Atenas#:~:text=A%20Escola%20de%20Atenas%20(Scuola,Segnatura%20sob%20encomenda%20do%20Vaticano." target=blank>
+        <img src="./imgs/Escola de atenas.jpg" alt="Escola de atenas"> </a>
+          <figcaption>Nome:A escola de Atenas
+            <br>Artista: Rafael Sanzio
+            <br>Obs: A obra se encontra no Palácio Apostólico, Vaticano.
+          </figcaption>
+          </div>
         </div>
       </figure>
 
@@ -94,17 +97,7 @@
         </div>
       </figure>
 
-    <figure>
-        <div class="images">
-        <a href="https://pt.wikipedia.org/wiki/A_Criação_de_Adão" target=blank>
-          <img src="./imgs/Criação de Adão.jpg" alt="A criação de adão"> </a>
-          <figcaption>
-          Nome: A Criação de Adão 
-          <br>Artista: Michelangelo Buonarotti 
-          <br>Obs:  Fica no teto da Capela Sistina no Vaticano
-          </figcaption>
-        </div>
-      </figure>
+
 
     <figure>
         <div class="images">
@@ -132,6 +125,20 @@
 
     <figure>
         <div class="images">
+        <div class="maior">
+        <a href="https://pt.wikipedia.org/wiki/A_Criação_de_Adão" target=blank>
+          <img src="./imgs/Criação de Adão.jpg" alt="A criação de adão"> </a>
+          <figcaption>
+          Nome: A Criação de Adão 
+          <br>Artista: Michelangelo Buonarotti 
+          <br>Obs:  Fica no teto da Capela Sistina no Vaticano
+          </figcaption>
+          </div>
+        </div>
+      </figure>
+
+    <figure>
+        <div class="images">
         <a href="https://pt.wikipedia.org/wiki/Uma_Tarde_de_Domingo_na_Ilha_de_Grande_Jatte" target=blank>
           <img src="./imgs/Tarde de domingo.jpg" alt="Uma tarde de Domingo na Ilha de Grande Jatte"> </a>
           <figcaption>
@@ -143,17 +150,7 @@
       </figure>
 
 
-    <figure>
-        <div class="images">
-        <a href="https://pt.wikipedia.org/wiki/A_Última_Ceia_(Leonardo_da_Vinci)" target=blank>
-          <img src="./imgs/Ceia.jpg" alt="A Última Ceia"> </a>
-          <figcaption>
-          Nome: A Última Ceia
-          <br>Artista: Leonardo da Vinci
-          <br>Obs: A obra está no Convento de Santa Maria delle Grazie, Milão.
-          </figcaption>
-        </div>
-      </figure>
+
 
       <figure>
         <div class="images">
@@ -179,17 +176,21 @@
         </div>
       </figure>
 
-      <figure>
+    <figure>
         <div class="images">
-        <a href="https://pt.wikipedia.org/wiki/Guernica_(quadro)" target=blank>
-          <img src="./imgs/guernica.jpg" alt="Guernica"> </a>
+        <div class="maior">
+        <a href="https://pt.wikipedia.org/wiki/A_Última_Ceia_(Leonardo_da_Vinci)" target=blank>
+          <img src="./imgs/Ceia.jpg" alt="A Última Ceia"> </a>
           <figcaption>
-          Nome: Guernica
-          <br>Artista: Pablo Picasso
-          <br>Obs: A obra está no Museu Reina Sofia, Madrid.
+          Nome: A Última Ceia
+          <br>Artista: Leonardo da Vinci
+          <br>Obs: A obra está no Convento de Santa Maria delle Grazie, Milão.
           </figcaption>
+          </div>
         </div>
       </figure>
+
+
 
       <figure>
         <div class="images">
@@ -217,6 +218,7 @@
 
       <figure>
         <div class="images">
+          
         <a href="https://pt.wikipedia.org/wiki/As_Meninas_(Velázquez)" target=blank>
           <img src="./imgs/Las_Meninas.jpg" alt="Las Meninas"> </a>
           <figcaption>
@@ -227,15 +229,35 @@
         </div>
       </figure>
 
+      <figure>
+        <div class="images">
+          <div class="maior">
+        <a href="https://pt.wikipedia.org/wiki/Guernica_(quadro)" target=blank>
+          <img src="./imgs/guernica.jpg" alt="Guernica"> </a>
+          <figcaption>
+          Nome: Guernica
+          <br>Artista: Pablo Picasso
+          <br>Obs: A obra está no Museu Reina Sofia, Madrid.
+          </figcaption>
+          </div>
+        </div>
+      </figure>
+
     </div>
   </section>
-  <footer>
+
+
+  <footer class="footer">
+    <div class="footer1">
     <div class="alunos"> Alunos: Paulo Cesar, Luana Pires, Artur Severo, Davi Feitosa</div> 
     <div class="copia">
       <a href="https://docs.google.com/document/d/1btBh8AaKVEidDtbicwgIeQRCrq20WUsIarO02PSTzH8/edit?tab=t.0#heading=h.vuupm6jpllsmf" target="_blank">&copy; 2024 Galeria de Arte Online</a>
-    </div>
+  </div>
+      <div class="link">
       <a href="https://www.instagram.com/galeria_art_on/profilecard/?igsh=MTA1OWQ1ZXR6bzEzcw==" target="_blank">
       <img src="./imgs/instagram.png" alt="Instagram" class="links1">
+      </div>
+      </div>
   </footer>
 </body>
 </html>
