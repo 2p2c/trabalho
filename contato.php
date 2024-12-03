@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Contato</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
 </head>
 <body>
 <header>
@@ -91,7 +91,7 @@ $conn->close();
     <div class="footer1">
     <div class="alunos"> Alunos: Paulo Cesar, Luana Pires, Artur Severo, Davi Feitosa</div> 
     <div class="copia">
-      <a href="https://docs.google.com/document/d/1btBh8AaKVEidDtbicwgIeQRCrq20WUsIarO02PSTzH8/edit?tab=t.0#heading=h.vuupm6jpllsmf" target="_blank">&copy; 2024 Galeria de Arte Online</a>
+      <a href="https://github.com/2p2c/trabalho" target="_blank">&copy; 2024 Galeria de Arte Online</a>
   </div>
       <div class="link">
       <a href="https://www.instagram.com/galeria_art_on/profilecard/?igsh=MTA1OWQ1ZXR6bzEzcw==" target="_blank">

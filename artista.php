@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artistas</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
 </head>
 <body>
 <header>
@@ -95,21 +95,21 @@
 
     <article>
       <img src="./imgs/diego.jpg" alt="Artista 2">
-      <h2>Diego Velázquez (1599–1660) (1859–1891)</h2>
+      <h2>Diego Velázquez (1599–1660) </h2>
       <p>Estilo: Barroco. Obras principais: "Las Meninas" (1656): Uma das obras-primas do Barroco, mostrando a corte espanhola com uma composição complexa e perspectiva única. "O Menino com o Lince" (1618): Retrato de um dos meninos da corte, mostrando o talento do pintor para a captura de detalhes e realismo. </p>
       <a href="https://pt.wikipedia.org/wiki/Diego_Vel%C3%A1zquez" target=blank>Saiba mais</a>
     </article>
 
     <article>
       <img src="./imgs/pablo.jpg" alt="Artista 2">
-      <h2>Pablo Picasso (1881–1973)(1859–1891)</h2>
+      <h2>Pablo Picasso (1881–1973)</h2>
       <p>Estilo: Cubismo, Surrealismo, Realismo. Obras principais: "Les Demoiselles d'Avignon" (1907): Obra revolucionária que marca o início do Cubismo. "Guernica" (1937): Uma das mais importantes manifestações contra a Guerra Civil Espanhola e a violência.</p>
       <a href="https://pt.wikipedia.org/wiki/Pablo_Picasso" target=blank>Saiba mais</a>
     </article>
 
     <article>
       <img src="./imgs/gustav.jpg" alt="Artista 2">
-      <h2>Gustav Klimt (1862–1918) (1859–1891)</h2>
+      <h2>Gustav Klimt (1862–1918) </h2>
       <p>Estilo: Art Nouveau, Simbolismo. Obras principais: "O Beijo" (1907–1908): Uma das mais icônicas obras de Klimt, simbolizando o amor e a sensualidade. "Retrato de Adele Bloch-Bauer I" (1907): Retrato de uma mulher rica, com uso de ouro e ornamentação elaborada.</p>
       <a href="https://pt.wikipedia.org/wiki/Gustav_Klimt" target=blank>Saiba mais</a>
     </article>
@@ -121,7 +121,7 @@
     <div class="footer1">
     <div class="alunos"> Alunos: Paulo Cesar, Luana Pires, Artur Severo, Davi Feitosa</div> 
     <div class="copia">
-      <a href="https://docs.google.com/document/d/1btBh8AaKVEidDtbicwgIeQRCrq20WUsIarO02PSTzH8/edit?tab=t.0#heading=h.vuupm6jpllsmf" target="_blank">&copy; 2024 Galeria de Arte Online</a>
+      <a href="https://github.com/2p2c/trabalho" target="_blank">&copy; 2024 Galeria de Arte Online</a>
   </div>
       <div class="link">
       <a href="https://www.instagram.com/galeria_art_on/profilecard/?igsh=MTA1OWQ1ZXR6bzEzcw==" target="_blank">

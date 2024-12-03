@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galeria</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
 </head>
 <body>
 <header>
@@ -30,12 +30,8 @@
 
     <div class="grid2">
 
-
-
-     
       <figure>
       <div class="images">
-      <div class="maior">
       <a href="https://pt.wikipedia.org/wiki/O_Grito" target=blank>
         <img src="./imgs/O grito.jpg" alt="O Grito" > </a>
       <figcaption>
@@ -43,7 +39,6 @@
         <br>Artista: Edvard Munch
         <br>Obs: A pintura está exposta na Galeria Nacional de Oslo, na Noruega
       </figcaption>
-      </div>
       </div>
       </figure>
 
@@ -73,15 +68,13 @@
       </figure>
 
       <figure>
-      <div class="images">
-      <div class="maior">
+      <div class="images maior">
       <a href="https://pt.wikipedia.org/wiki/Escola_de_Atenas#:~:text=A%20Escola%20de%20Atenas%20(Scuola,Segnatura%20sob%20encomenda%20do%20Vaticano." target=blank>
         <img src="./imgs/Escola de atenas.jpg" alt="Escola de atenas"> </a>
           <figcaption>Nome:A escola de Atenas
             <br>Artista: Rafael Sanzio
             <br>Obs: A obra se encontra no Palácio Apostólico, Vaticano.
           </figcaption>
-          </div>
         </div>
       </figure>
 
@@ -99,7 +92,7 @@
 
 
 
-    <figure>
+      <figure>
         <div class="images">
         <a href="https://pt.wikipedia.org/wiki/Meisje_met_de_parel" target=blank>
           <img src="./imgs/Moça com brinco.jpg" alt="Moça com o Brinco de pérola"> </a>
@@ -111,7 +104,7 @@
         </div>
       </figure>
 
-    <figure>
+      <figure>
         <div class="images">
         <a href="https://pt.wikipedia.org/wiki/Terraço_do_Café_à_Noite" target=blank>
           <img src="./imgs/Terraço do café.jpg" alt="Terraço do Café à Noite"> </a>
@@ -123,9 +116,8 @@
         </div>
       </figure>
 
-    <figure>
-        <div class="images">
-        <div class="maior">
+      <figure>
+        <div class="images maior">
         <a href="https://pt.wikipedia.org/wiki/A_Criação_de_Adão" target=blank>
           <img src="./imgs/Criação de Adão.jpg" alt="A criação de adão"> </a>
           <figcaption>
@@ -133,11 +125,10 @@
           <br>Artista: Michelangelo Buonarotti 
           <br>Obs:  Fica no teto da Capela Sistina no Vaticano
           </figcaption>
-          </div>
         </div>
       </figure>
 
-    <figure>
+      <figure>
         <div class="images">
         <a href="https://pt.wikipedia.org/wiki/Uma_Tarde_de_Domingo_na_Ilha_de_Grande_Jatte" target=blank>
           <img src="./imgs/Tarde de domingo.jpg" alt="Uma tarde de Domingo na Ilha de Grande Jatte"> </a>
@@ -176,9 +167,8 @@
         </div>
       </figure>
 
-    <figure>
-        <div class="images">
-        <div class="maior">
+     <figure>
+        <div class="images maior">
         <a href="https://pt.wikipedia.org/wiki/A_Última_Ceia_(Leonardo_da_Vinci)" target=blank>
           <img src="./imgs/Ceia.jpg" alt="A Última Ceia"> </a>
           <figcaption>
@@ -186,7 +176,6 @@
           <br>Artista: Leonardo da Vinci
           <br>Obs: A obra está no Convento de Santa Maria delle Grazie, Milão.
           </figcaption>
-          </div>
         </div>
       </figure>
 
@@ -218,7 +207,6 @@
 
       <figure>
         <div class="images">
-          
         <a href="https://pt.wikipedia.org/wiki/As_Meninas_(Velázquez)" target=blank>
           <img src="./imgs/Las_Meninas.jpg" alt="Las Meninas"> </a>
           <figcaption>
@@ -230,8 +218,7 @@
       </figure>
 
       <figure>
-        <div class="images">
-          <div class="maior">
+        <div class="images maior">
         <a href="https://pt.wikipedia.org/wiki/Guernica_(quadro)" target=blank>
           <img src="./imgs/guernica.jpg" alt="Guernica"> </a>
           <figcaption>
@@ -240,9 +227,7 @@
           <br>Obs: A obra está no Museu Reina Sofia, Madrid.
           </figcaption>
           </div>
-        </div>
       </figure>
-
     </div>
   </section>
 
@@ -251,7 +236,7 @@
     <div class="footer1">
     <div class="alunos"> Alunos: Paulo Cesar, Luana Pires, Artur Severo, Davi Feitosa</div> 
     <div class="copia">
-      <a href="https://docs.google.com/document/d/1btBh8AaKVEidDtbicwgIeQRCrq20WUsIarO02PSTzH8/edit?tab=t.0#heading=h.vuupm6jpllsmf" target="_blank">&copy; 2024 Galeria de Arte Online</a>
+      <a href="https://github.com/2p2c/trabalho" target="_blank">&copy; 2024 Galeria de Arte Online</a>
   </div>
       <div class="link">
       <a href="https://www.instagram.com/galeria_art_on/profilecard/?igsh=MTA1OWQ1ZXR6bzEzcw==" target="_blank">
